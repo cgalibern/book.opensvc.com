@@ -119,8 +119,8 @@ charon {
 
 ```bash
 om system/cfg/strongswan create
-om system/cfg/strongswan key add --name swanctl.conf --from swanctl.conf
-om system/cfg/strongswan key add --name strongswan.conf --from strongswan.conf
+om system/cfg/strongswan key add swanctl.conf --from swanctl.conf
+om system/cfg/strongswan key add strongswan.conf --from strongswan.conf
 ```
 
 </div>
